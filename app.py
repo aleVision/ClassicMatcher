@@ -28,6 +28,10 @@ def match_features(des1, des2, method):
         return matches
     return None
 
+
+# Title of the app
+st.title("Feature Detection and Object Matching Web App")
+
 # Sidebar for user inputs
 st.sidebar.title("Feature Detection and Matching Options")
 
